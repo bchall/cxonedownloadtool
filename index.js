@@ -23,7 +23,7 @@ request(options, function (error, response) {
 
     var options = {
         'method': 'GET',
-        'url': 'https://api-na1.niceincontact/incontactapi/services/v23.0/scripts/search?scriptName=' + args[0],
+        'url': 'https://api-na1.niceincontact.com/incontactapi/services/v23.0/scripts/search?scriptName=' + args[0],
         'headers': {
             'accept': 'application/json',
             'Authorization': 'Bearer ' + token
@@ -37,7 +37,7 @@ request(options, function (error, response) {
 
         var options = {
             'method': 'GET',
-            'url': 'https://api-na1.niceincontact/incontactapi/services/v23.0/scripts/' + masterID,
+            'url': 'https://api-na1.niceincontact.com/incontactapi/services/v23.0/scripts/' + masterID,
             'headers': {
                 'accept': 'application/json',
                 'Authorization': 'Bearer ' + token
