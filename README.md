@@ -1,4 +1,4 @@
-# cxonescriptdownloadtool
+# CXone Script Download Tool
 
 Download a Studio script from NICE CXone using nodejs. 
 
