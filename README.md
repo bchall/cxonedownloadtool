@@ -3,7 +3,7 @@
 Download a Studio script from NICE CXone using nodejs. 
 
 
-Script requires accessKeyId and accessKeySecret to be entered.
+index.js requires your accessKeyId and accessKeySecret to be entered.
 
 "accessKeyId": "",
 
